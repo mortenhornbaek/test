@@ -1,0 +1,57 @@
+.head.detail-head {position: fixed;width: 100%;bottom: 0;background-color: white;}
+
+.detail-head__col.detail-links.detail-links-playback {
+    display: none;
+}
+
+.player-scrub-bar {
+    position: inherit !important;
+}
+
+.js-skip--end {
+    display: none;
+}
+
+a.player-control.player-control--gauge.is-active.js-speed-adjust.tooltipstered {
+    background: white;
+    color: #676764;
+    position: absolute;
+    margin-left: 175px;
+}
+
+.player-control--gauge span {
+    color: #676764;
+}
+
+span#js-time-total {}
+
+span#js-time-total {margin-left: 125px;}
+
+a.player-control.player-control--skip.js-skip.js-skip--start.tooltipstered {
+    position: absolute;
+}
+
+a.player-control.player-control--play-pause.js-play-pause-toggle.is-paused.tooltipstered {
+    position: absolute;
+    margin-left: 25px;
+}
+
+span#js-time-elapsed {
+    position: absolute;
+    margin-left: 75px;
+}
+
+span#js-time-elapsed:after {content: "\002F";padding: 5px;}
+
+a.player-control.player-control--gauge.is-active.js-speed-adjust.tooltipstered {}
+
+
+
+.detail-head__col.detail-player-controls {
+    width: 100%;
+}
+
+.detail-player-controls--inner {
+    width: fit-content;
+    margin-left: auto;
+}
